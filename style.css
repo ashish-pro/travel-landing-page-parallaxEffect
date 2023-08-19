@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back-ground{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 105vh;
+    background-color: #dadada;
+}
+
+#back-ground img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+ 
+}
+
+#gradient{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7), black);
+}
