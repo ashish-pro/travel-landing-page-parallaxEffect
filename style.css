@@ -111,7 +111,7 @@ footer #right a{
     background-color: black;
 }
 
-#elems{
+#elem{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -173,4 +173,16 @@ footer #right a{
     line-height: 25px;
     font-size: 13px;
     color: #fff;
+}
+
+#man{ 
+     z-index: 10;
+}
+
+#pahad{
+    z-index: 9;
+}
+
+#sky{
+    z-index: 8;
 }
